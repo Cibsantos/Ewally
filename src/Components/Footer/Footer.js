@@ -50,11 +50,11 @@ class Footer extends Component {
 const DivFooter = styled.footer`
     position:absolute;
     bottom:0;
-    width:100%;
+    width: 100%;
     display: flex;
     align-items: center;
     background: #00BFC7;
-    width: 100%;
+    heigth: 70px;
     justify-content: space-around;
 `
 
