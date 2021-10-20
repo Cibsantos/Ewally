@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+<div align ="center">
+    <img  src = "./src/Assets/images/logo-ewally.png">
+</div>
+<h1 align ="center"> Ewally Bank </h1> 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">Web Banking com Integração a API's Ewally </p>
 
-## Available Scripts
+<span style="align-items:center">
+    <img src="https://img.shields.io/static/v1?label=licence&message=MIT&color=006D76&style=flat"/>
+    <img src="https://img.shields.io/static/v1?label=npm&message=6.14.8&color=006D76&style=flat"/>
+    <img src="https://img.shields.io/static/v1?label=React&message=17.0.2&color=006D76&style=flat"/>
+</span>
 
-In the project directory, you can run:
 
-### `yarn start`
+<h1 id = "sobre"> :green_book: Sobre </h1>  
+ <p> Ewally Bank é um projeto de Web Banking para acesso a conta digital Ewally.
+ Disponível consulta do Extrato e Consulta do histórico de transações
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Este projeto foi gerado com [REACT](https://pt-br.reactjs.org/) versão 17.0.2. </p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#  :chart_with_upwards_trend: Tabela de Conteúdos
+=================
+<!--ts-->
+   * [Sobre](#sobre)
+   * [Instalação](#instalacao)
+   * [Features](#features)
+   * [Como usar](#como-usar)
+   * [Licença](#licenca) 
+   * [Autora](#autora)
+   * [Agradecimentos](#agradecimentos)
+<!--te-->
 
-### `yarn test`
+<h4 align="center"> 
+    :round_pushpin:  Ewally Banking 🚀 Finalizado  :round_pushpin:
+</h4>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h1 id = "instalacao"> :floppy_disk: Instalação </h1>
+ <p> Clone o repositório em um pasta desejada com git: 
+ 
+ `git clone https://github.com/Cibsantos/Ewally_Banking.git` 
+ 
+ Execute `npm install` ou `yarn install`
 
-### `yarn build`
+Para executar o Web Banking `npm start` ou `yarn start` na pasta raiz do projeto e iniciará um servidor de desenvolvimento. Navegue até `http://localhost:3000/`. O aplicativo será recarregado automaticamente se você alterar qualquer um dos arquivos de origem.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h1 id = "features"> :heavy_check_mark: Features </h1>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [x] Login
+- [x] Consulta Saldo
+- [x] Consuta Extrato
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h1 id = "como-usar"> :dart: Como Usar </h1>
 
-### `yarn eject`
+<p>Login</p>
+Para Acessar ao Web Banking use:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+`user: testFrontEwally` 
+`psw: 123456` 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p>Consulta Extrato</p>
+Para Consulta do extrato utilize o período de: 01/01/2019 até 31/01/2019
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<h3 id = #demonstracao> Demonstração </h3>
+<p> Login</p>
+<img src = './src/Assets/images/login.png'>
+<p> Saldo</p>
+<img src = './src/Assets/images/saldo.png'>
+<p> Extrato</p>
+<img src = './src/Assets/images/extrato.png'>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+#### Padrão Commits Segundo a Udacity
+Disponível em: http://udacity.github.io/git-styleguide/
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<h1 id = "licenca"> :lock: Licença </h1>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-### Code Splitting
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-### Analyzing the Bundle Size
+<h1 id = "autora">  :pencil2: Autora </h1>
+<div align= "center">
+<div>
+    <img width="50px" src = './src/Assets/images/autora.jpg' />
+    <p>
+        Desenvolvido com :heart: por <a href = "https://github.com/Cibsantos"> Cibele Santos </a> 
+        entre em contato :muscle:
+    </p>   
+</div>
+<span>
+    <img src ="https://img.shields.io/static/v1?label=&message=Cibsantos&color=000000&logo=github" />
+    <img src ="https://img.shields.io/static/v1?label=&message=Cibelesantoscs&color=0b4cff&logo=linkedin" />
+    <img src ="https://img.shields.io/static/v1?label=&message=cibele.santosgecom@gmail.com&color=f11212&logo=gmail" />
+</span>
+<h1 id = "agradecimentos"> :clap: Agradecimentos </h1>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Obrigada pela oportunidade de demonstrar meus conhecimentos, espero que gostem do projeto 
+e qualquer dúvida me coloco á disposição. 
+</div>
