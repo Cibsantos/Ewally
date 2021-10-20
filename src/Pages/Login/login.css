@@ -1,0 +1,60 @@
+.container_login {
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    padding-left: 3em;
+}
+
+.btn-primary {
+    background-color: #009098;
+    border-radius: 5px;
+    margin: 3% 0;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    width: 95px;
+}
+
+.btn-primary:hover {
+    color: #009098;
+    background-color: #fff;
+}
+
+.errorBox{
+    font-size: 12px; 
+    color:#000;
+
+}
+
+.form-control{
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 30px;
+    color: #006D76;;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #88fffd;
+    outline: 0;
+}
+
+h3{
+    text-transform: uppercase;
+    color: #006D76;
+}
+
+@media (max-width: 680px) {
+    .container_login{
+        left: 0%;
+        height:50%;
+    }
+  }
