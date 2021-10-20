@@ -13,13 +13,13 @@ class Header extends Component {
           <List>
             <Link target="_blank" href="https://www.ewally.com.br/">
               <SubTitle> Ewally</SubTitle>
-              </Link>
+            </Link>
             <ListItem>
-              <Link target="_blank" href="https://www.ewally.com.br/para-voce-conta-digital/">Para Você</Link>
+              <Link target="_blank" href="https://www.ewally.com.br/para-voce-conta-digital/">Você</Link>
             </ListItem>
             <br />
             <ListItem >
-              <Link target="_blank" href="https://www.ewally.com.br/para-sua-empresa/">Para Sua Empresa </Link>
+              <Link target="_blank" href="https://www.ewally.com.br/para-sua-empresa/">Sua Empresa </Link>
             </ListItem>
             <br />
             <ListItem>
@@ -42,29 +42,38 @@ const DivHeader = styled.footer`
     background: #00BFC7;
     height: 90px;
     justify-content:space-between;
+
+    @media (max-width: 680px) {     
+      font-size: 14px;     
+    }
 `
 
 const Link = styled.a`
     text-decoration: none;
     color: #fff;
+  
     
 `
 const List = styled.ul`
   display: flex;
-   text-transform: uppercase;
+  text-transform: uppercase;
   list-style-type: none;
+ 
 `
 const ListItem = styled.li`
   display: inline;
   text-transform: uppercase;
   padding: 1em 1em 1em 2em;
+  @media (max-width: 680px) {     
+    padding: 1em 1.5em 1em 1em;
+  }
 `
 
 const SubTitle = styled.p`
   font-size: 18px;
   color:#006D76;
   font-weight:bold;
-  padding-bottom: 5px;
+  padding-bottom: 5px; 
 
 `
 
