@@ -38,9 +38,9 @@ class Footer extends Component {
               <Link target="_blank" href="https://github.com/Cibsantos">Suporte Técnico </Link>
             </li>
           </List>
-          <SubTitle>
+          <Copy>
             &copy; C.S 2021
-          </SubTitle>
+          </Copy>
         </DivFooter>
       </React.Fragment>
     );
@@ -48,14 +48,17 @@ class Footer extends Component {
 }
 
 const DivFooter = styled.footer`
-    position:absolute;
-    bottom:0;
+    position: absolute;
+    bottom: 0;
     width: 100%;
     display: flex;
     align-items: center;
     background: #00BFC7;
-    heigth: 70px;
     justify-content: space-around;
+
+    @media (max-width: 680px) {     
+     top: 70%;
+    }
 `
 
 const Link = styled.a`
@@ -71,6 +74,19 @@ const SubTitle = styled.p`
   color:#006D76;
   font-weight:bold;
 
+  @media (max-width: 680px) {     
+    font-size: 12px;
+   }
+
+`
+const Copy = styled.p`
+  font-size: 18px;
+  color:#006D76;
+  font-weight:bold;
+
+  @media (max-width: 680px) {     
+    display: none;
+   }
 `
 
 export default Footer;
